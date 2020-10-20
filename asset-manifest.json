@@ -1,0 +1,22 @@
+{
+  "files": {
+    "main.css": "/chat-websoket/static/css/main.5d23529a.chunk.css",
+    "main.js": "/chat-websoket/static/js/main.2f1d93fd.chunk.js",
+    "main.js.map": "/chat-websoket/static/js/main.2f1d93fd.chunk.js.map",
+    "runtime-main.js": "/chat-websoket/static/js/runtime-main.db7d454e.js",
+    "runtime-main.js.map": "/chat-websoket/static/js/runtime-main.db7d454e.js.map",
+    "static/js/2.e535a202.chunk.js": "/chat-websoket/static/js/2.e535a202.chunk.js",
+    "static/js/2.e535a202.chunk.js.map": "/chat-websoket/static/js/2.e535a202.chunk.js.map",
+    "index.html": "/chat-websoket/index.html",
+    "precache-manifest.20d1fabd41d8775f6737cdd501affdc9.js": "/chat-websoket/precache-manifest.20d1fabd41d8775f6737cdd501affdc9.js",
+    "service-worker.js": "/chat-websoket/service-worker.js",
+    "static/css/main.5d23529a.chunk.css.map": "/chat-websoket/static/css/main.5d23529a.chunk.css.map",
+    "static/js/2.e535a202.chunk.js.LICENSE.txt": "/chat-websoket/static/js/2.e535a202.chunk.js.LICENSE.txt"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.db7d454e.js",
+    "static/js/2.e535a202.chunk.js",
+    "static/css/main.5d23529a.chunk.css",
+    "static/js/main.2f1d93fd.chunk.js"
+  ]
+}
