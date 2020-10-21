@@ -1,0 +1,79 @@
+.app {
+  margin: 0;
+  padding: 0;
+  width: 100vw;
+  max-width: 100vw;;
+  background-color: #2B2B2B;
+  height: 98vh;
+  max-height: 98vh;
+  position: relative;
+  .chat {
+    overflow-y: scroll;
+    height: 60%;
+    width: 100%;
+    border: #282c34;
+    .message_block {
+      display: flex;
+      flex-direction: row;
+      .name {
+        color: #00D700;
+        font-size: 14px;
+        font-weight: 700;
+        font-family: 'Krona One', sans-serif;
+        padding-left: 5px;
+      }
+      .message {
+        font-weight: 100;
+        max-width: 100vw;
+        font-family: 'Krona One', sans-serif;
+        position: relative;
+        text-align: left;
+        height: fit-content;
+        color: #BBBBBB;
+        padding: 0 5px 0 5px;
+        font-size: 14px;
+      }
+    }
+  }
+  .input_text {
+    height: 33.5%;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    border: none;
+    background-color: black;
+    font-family: 'Krona One', sans-serif;
+    color: #FFFFFF;
+    font-size: 16px;
+    &:focus{
+
+    }
+  }
+  .send_text{
+    color: #FFFFFF;
+    background-color: #282c34;
+    font-family: 'Krona One', sans-serif;
+    width: fit-content;
+    height: 50px;
+  }
+  .send_name {
+    color: #FFFFFF;
+    background-color: #282c34;
+    font-family: 'Krona One', sans-serif;
+    width: fit-content;
+    height: 50px;
+  }
+  .use_name{
+    font-family: 'Krona One', sans-serif;
+    height: 50px;
+    font-size: 14px;
+    min-width: 80px;
+    width: fit-content;
+    background-color: #282c34;
+    color: #00D700;
+  }
+}
+
+textarea:focus, input:focus{
+  outline: none;
+}

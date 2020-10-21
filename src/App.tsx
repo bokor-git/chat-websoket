@@ -1,6 +1,6 @@
 import React, {useEffect, useRef, useState} from 'react';
 import './App.css';
-
+import style from "./chat.module.scss"
 import {useDispatch, useSelector} from "react-redux"
 import {createConnections, destroyConnections, sendMassage, setClientName, typeMessage} from "./chat-reducer";
 import {AppStateType} from "./index";
@@ -32,16 +32,10 @@ function App() {
         }
     }, [messages])
     const [message, setMessage] = useState("")
-    const [name, setName] = useState("Bohdan")
+    const [name, setName] = useState("")
     return (
-        <div className="App">
-            <div style={{
-                border: "2px solid black",
-                padding: "15px",
-                height: "300px",
-                width: "250px",
-                overflowY: 'scroll'
-            }}
+        <div className={style.app}>
+            <div className={style.chat}
                  onScroll={(event) => {
                      let element = event.currentTarget
                      let maxScrollPosition = element.scrollHeight - element.clientHeight
@@ -52,24 +46,28 @@ function App() {
                      }
                      setLastScrollTop(event.currentTarget.scrollTop)
                  }}>
-                {messages.map((m: any) => <div key={m.id}><b>{m.user.name}</b>:{m.message}</div>)}
+                {messages.map((m: any) => <div className={style.message_block} key={m.id}>
+                    <span className={style.name}>{m.user.name}:</span>
+                    <span className={style.message}>{m.message}</span>
+
+                    </div>)}
                 {typingUsers.map((m: any) => <div key={m.id}><b>{m.name}</b>...</div>)}
 
                 <div ref={massagesAnchorRef}></div>
+
             </div>
-            <input value={name} onChange={event => setName(event.currentTarget.value)} type="text"/>
-            <button onClick={() => {
+            <button className={style.send_name} onClick={() => {
                 dispatch(setClientName(name))
-            }}>Send name
-            </button>
-            <textarea onKeyPress={() => {
-                dispatch(typeMessage())
-            }} value={message} onChange={event => setMessage(event.currentTarget.value)}></textarea>
-            <button onClick={() => {
+            }}>Use name:</button>
+            <input placeholder={"Your name..."} className={style.use_name} value={name} onChange={event => setName(event.currentTarget.value)} type="text"/>
+            <button className={style.send_text} onClick={() => {
                 dispatch(sendMassage(message));
                 setMessage("")
-            }}>Send message
-            </button>
+            }}>Send message</button>
+            <textarea placeholder={"Your message..."} className={style.input_text} onKeyPress={() => {
+                dispatch(typeMessage())
+            }} value={message} onChange={event => setMessage(event.currentTarget.value)}></textarea>
+
         </div>
     );
 }
