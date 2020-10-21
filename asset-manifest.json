@@ -1,22 +1,22 @@
 {
   "files": {
-    "main.css": "/chat-websoket/static/css/main.4acc186f.chunk.css",
-    "main.js": "/chat-websoket/static/js/main.c7853ba2.chunk.js",
-    "main.js.map": "/chat-websoket/static/js/main.c7853ba2.chunk.js.map",
+    "main.css": "/chat-websoket/static/css/main.3d1271ab.chunk.css",
+    "main.js": "/chat-websoket/static/js/main.11defb2f.chunk.js",
+    "main.js.map": "/chat-websoket/static/js/main.11defb2f.chunk.js.map",
     "runtime-main.js": "/chat-websoket/static/js/runtime-main.db7d454e.js",
     "runtime-main.js.map": "/chat-websoket/static/js/runtime-main.db7d454e.js.map",
     "static/js/2.8e7bbaf8.chunk.js": "/chat-websoket/static/js/2.8e7bbaf8.chunk.js",
     "static/js/2.8e7bbaf8.chunk.js.map": "/chat-websoket/static/js/2.8e7bbaf8.chunk.js.map",
     "index.html": "/chat-websoket/index.html",
-    "precache-manifest.d0dc08c99008a47127a37c88a124c22d.js": "/chat-websoket/precache-manifest.d0dc08c99008a47127a37c88a124c22d.js",
+    "precache-manifest.406adf2299098db3b8ef493995d81ba3.js": "/chat-websoket/precache-manifest.406adf2299098db3b8ef493995d81ba3.js",
     "service-worker.js": "/chat-websoket/service-worker.js",
-    "static/css/main.4acc186f.chunk.css.map": "/chat-websoket/static/css/main.4acc186f.chunk.css.map",
+    "static/css/main.3d1271ab.chunk.css.map": "/chat-websoket/static/css/main.3d1271ab.chunk.css.map",
     "static/js/2.8e7bbaf8.chunk.js.LICENSE.txt": "/chat-websoket/static/js/2.8e7bbaf8.chunk.js.LICENSE.txt"
   },
   "entrypoints": [
     "static/js/runtime-main.db7d454e.js",
     "static/js/2.8e7bbaf8.chunk.js",
-    "static/css/main.4acc186f.chunk.css",
-    "static/js/main.c7853ba2.chunk.js"
+    "static/css/main.3d1271ab.chunk.css",
+    "static/js/main.11defb2f.chunk.js"
   ]
 }
