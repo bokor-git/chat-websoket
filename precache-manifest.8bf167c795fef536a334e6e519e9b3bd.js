@@ -1,11 +1,11 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "3c32d644d1fc93a8fbee44462ed1f5f8",
+    "revision": "0093d85e2b65a7249cb2e04170d37815",
     "url": "/chat-websoket/index.html"
   },
   {
-    "revision": "a4a7120da69ce88cb1db",
-    "url": "/chat-websoket/static/css/main.3d1271ab.chunk.css"
+    "revision": "5eee6e5d948aef686153",
+    "url": "/chat-websoket/static/css/main.d1d9e559.chunk.css"
   },
   {
     "revision": "be064ef19ae057c0d171",
@@ -16,8 +16,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/chat-websoket/static/js/2.8e7bbaf8.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "a4a7120da69ce88cb1db",
-    "url": "/chat-websoket/static/js/main.11defb2f.chunk.js"
+    "revision": "5eee6e5d948aef686153",
+    "url": "/chat-websoket/static/js/main.f08c12f5.chunk.js"
   },
   {
     "revision": "2a5f43b3eef49e519ad2",
